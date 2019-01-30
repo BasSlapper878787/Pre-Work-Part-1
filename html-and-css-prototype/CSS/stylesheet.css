@@ -44,10 +44,7 @@ h1 {
 */
 
 /* Your CSS code goes here */
-.wrapper {
-     margin-top: 30px;
-     padding-left: 0px;
-     padding-right: 30px;
+
 }
 
 .heading1 {
@@ -104,15 +101,14 @@ h1 {
 
   width: 265px;
   height: 12px;
-
+  
 }
 
 .styled progress::-webkit-progress-bar {
   background: transparent;
   box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
-  margin-left: 30.8em;
-  margin-top: -2.3em;
-  object-position: center;
+  margin: 0 auto;
+  margin-top: -2.3em;    
 }
 
 .styled progress::-webkit-progress-value {
@@ -189,16 +185,16 @@ h1 {
 .why_give {
     color: #20A1D4;
     margin-top: 5px;
-    padding-left: 5px;
     font-size: .7em;
 }
 
 .bottom_buttons {
     max-width: 265px;
-    margin-left: 30.8em;
     margin-top: -.5em;
     object-position: center;
     margin-bottom: 2em;
+    margin: 0 auto;
+    
 }
 
 .save_for_later {
